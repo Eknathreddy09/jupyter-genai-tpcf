@@ -1,3 +1,7 @@
+# Jupyter GenAI TPCF Deployment Guide
+
+This repository contains the necessary configuration and code to deploy a Jupyter Notebook service integrated with Tanzu GenAI services for TPCF. 
+
 ##### Gen AI tile Config for reference: 
 
 <img width="850" height="406" alt="image" src="https://github.com/user-attachments/assets/15ac5c40-e944-43bb-8944-93d09cad4e0d" />
