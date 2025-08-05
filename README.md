@@ -26,7 +26,9 @@ cf create-service genai reddye-llama32-single-plan jupyter-llama-svc
 cf restart jupyter-notebook
 ```
 
+```
 cf app jupyter-notebook
+```
 
 Access the route in the browser > File > New > Notebook
 
