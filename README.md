@@ -1,7 +1,8 @@
-Gen AI tile Config for reference: 
+##### Gen AI tile Config for reference: 
 
 <img width="850" height="406" alt="image" src="https://github.com/user-attachments/assets/15ac5c40-e944-43bb-8944-93d09cad4e0d" />
 
+<img width="703" height="656" alt="image" src="https://github.com/user-attachments/assets/fad1e94a-b2ab-4798-a9f3-f91cf159b993" />
 
 
 ##### Deploy
