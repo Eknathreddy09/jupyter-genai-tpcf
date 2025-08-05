@@ -34,6 +34,12 @@ Example:
 cf create-service genai reddye-llama32-single-plan jupyter-llama-svc
 ```
 
+##### Bind the created GenAI service with Jupyter Notebook Application
+
+```
+cf bind-service jupyter-notebook jupyter-llama-svc
+```
+
 ##### Restart the Jupyter Notebook Application
 
 ```
