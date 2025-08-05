@@ -1,0 +1,8 @@
+---
+applications:
+  - name: jupyter-notebook
+    memory: 1G
+    disk_quota: 1G
+    buildpacks:
+      - python_buildpack
+    command: sh start.sh
