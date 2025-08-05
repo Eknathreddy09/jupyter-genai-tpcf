@@ -1,5 +1,28 @@
 
+##### Deploy
 
+```
+cd ./jupyter-genai-tpcf
+cf push
+```
+
+##### Create Service Instance for jupyter-genai-tpcf
+
+```
+cf create-service genai <Plan name> <Service Name>
+
+Example:
+
+cf create-service genai reddye-llama32-single-plan jupyter-llama-svc
+```
+
+```
+cf restart jupyter-notebook
+```
+
+cf app jupyter-notebook
+
+Access the route in the browser > File > New > Notebook
 
 ```
 pip install openai
