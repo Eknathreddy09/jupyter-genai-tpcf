@@ -121,5 +121,5 @@ print(response.json()['choices'][0]['message']['content'])
 
 ###### Notes
 	•	Replace `jupyter-llama-svc` with your actual GenAI service instance name if different.
-	•	Always check your credentials and bindings (see step 8) before running the code.
+	•	Always check your credentials and bindings before running the code.
 	•	Adjust the model name in `model = credentials.get("model_name", "llama3.2")` if your configuration is different.
