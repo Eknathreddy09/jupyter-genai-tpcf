@@ -64,6 +64,9 @@ Run these in a notebook cell:
 
 ```
 pip install openai
+```
+
+```
 pip install requests
 ```
 
@@ -116,6 +119,9 @@ response = requests.post(
     f"{api_base}/chat/completions", headers=headers, json=payload
 )
 print(response.json())
+```
+
+```
 print(response.json()['choices'][0]['message']['content'])
 ```
 
